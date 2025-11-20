@@ -1,0 +1,183 @@
+{
+  "name": "Northern Realms Starter Deck",
+  "faction": "Northern Realms",
+  "leaderAbility": "Pincer Maneuver",
+  "provisionLimit": 150,
+  "cards": [
+    {
+      "name": "Prince Anseis",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Reinforcements",
+      "provision": 6,
+      "power": 0,
+      "type": "Special",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Dandelion: Poet",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Neutral"
+    },
+    {
+      "name": "Tridam Infantry",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Tridam Infantry",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Kaedweni Sergeant",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Kaedweni Sergeant",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Reinforced Ballista",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Reinforced Ballista",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Cintrian Royal Guard",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Cintrian Royal Guard",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Kaedweni Cavalry",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Kaedweni Cavalry",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Lyrian Aristocrat",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Lyrian Aristocrat",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Temerian Drummer",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Temerian Drummer",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Dun Banner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Dun Banner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Aretuza Adept",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Aretuza Adept",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Redanian Knight",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Redanian Knight",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Redanian Archer",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    },
+    {
+      "name": "Redanian Archer",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Northern Realms"
+    }
+  ]
+}

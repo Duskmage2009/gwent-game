@@ -1,0 +1,78 @@
+{
+  "name": "Monster Swarm",
+  "faction": "Monsters",
+  "leaderAbility": "Overwhelming Hunger",
+  "provisionLimit": 160,
+  "cards": [
+    {
+      "name": "Gernichora",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wild Hunt Rider",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wild Hunt Rider",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Drowner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Drowner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    }
+  ]
+}

@@ -3,6 +3,7 @@
   "faction": "Northern Realms",
   "leaderAbility": "Pincer Maneuver",
   "provisionLimit": 150,
+  "categories": "Control, Tempo, Midrange",
   "cards": [
     {
       "name": "Prince Anseis",

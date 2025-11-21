@@ -1,0 +1,79 @@
+{
+  "name": "Nilfgaard Control",
+  "faction": "Nilfgaard",
+  "leaderAbility": "Imperial Formation",
+  "provisionLimit": 155,
+  "categories": "Control, Tempo, Siege",
+  "cards": [
+    {
+      "name": "Joachim de Wett",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Vincent Van Moorlehem",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Amnesty",
+      "provision": 6,
+      "power": 0,
+      "type": "Special",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Alba Armored Cavalry",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Alba Armored Cavalry",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Nauzicaa Sergeant",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Nauzicaa Sergeant",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Impera Brigade",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Impera Brigade",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    },
+    {
+      "name": "Mage Assassin",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Nilfgaard"
+    }
+  ]
+}

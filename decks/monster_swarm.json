@@ -3,6 +3,7 @@
   "faction": "Monsters",
   "leaderAbility": "Overwhelming Hunger",
   "provisionLimit": 160,
+  "categories": "Swarm, Aggro, Unit Control",
   "cards": [
     {
       "name": "Gernichora",

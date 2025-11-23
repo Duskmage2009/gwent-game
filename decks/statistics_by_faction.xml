@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<statistics>
+  <item>
+    <value>Monsters</value>
+    <count>573</count>
+  </item>
+  <item>
+    <value>Northern Realms</value>
+    <count>24</count>
+  </item>
+  <item>
+    <value>Skellige</value>
+    <count>20</count>
+  </item>
+  <item>
+    <value>Scoia'tael</value>
+    <count>20</count>
+  </item>
+  <item>
+    <value>Syndicate</value>
+    <count>19</count>
+  </item>
+  <item>
+    <value>Nilfgaard</value>
+    <count>10</count>
+  </item>
+  <item>
+    <value>Neutral</value>
+    <count>1</count>
+  </item>
+</statistics>

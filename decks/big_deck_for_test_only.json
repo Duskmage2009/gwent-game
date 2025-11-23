@@ -1,0 +1,3509 @@
+{
+  "name": "Mega Monster Test Deck",
+  "faction": "Monsters",
+  "leaderAbility": "Overwhelming Hunger",
+  "provisionLimit": 9999,
+  "categories": "Massive, LoadTest, PerformanceTest",
+  "cards": [
+    {
+      "name": "Card001",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card002",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card003",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card004",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card005",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card006",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card007",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card008",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card009",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card010",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card011",
+      "provision": 5,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card012",
+      "provision": 6,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card013",
+      "provision": 7,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card014",
+      "provision": 8,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card015",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card016",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card017",
+      "provision": 11,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card018",
+      "provision": 12,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card019",
+      "provision": 13,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card020",
+      "provision": 4,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card021",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card022",
+      "provision": 6,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card023",
+      "provision": 7,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card024",
+      "provision": 8,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card025",
+      "provision": 9,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card026",
+      "provision": 10,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card027",
+      "provision": 11,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card028",
+      "provision": 12,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card029",
+      "provision": 13,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card030",
+      "provision": 4,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card031",
+      "provision": 5,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card032",
+      "provision": 6,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card033",
+      "provision": 7,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card034",
+      "provision": 8,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card035",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card036",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card037",
+      "provision": 11,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card038",
+      "provision": 12,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card039",
+      "provision": 13,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card040",
+      "provision": 4,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card041",
+      "provision": 5,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card042",
+      "provision": 6,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card043",
+      "provision": 7,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card044",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card045",
+      "provision": 9,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card046",
+      "provision": 10,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card047",
+      "provision": 11,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card048",
+      "provision": 12,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card049",
+      "provision": 13,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card050",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card051",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card052",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card053",
+      "provision": 7,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card054",
+      "provision": 8,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card055",
+      "provision": 9,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card056",
+      "provision": 10,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card057",
+      "provision": 11,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card058",
+      "provision": 12,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card059",
+      "provision": 13,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card060",
+      "provision": 4,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card061",
+      "provision": 5,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card062",
+      "provision": 6,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card063",
+      "provision": 7,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card064",
+      "provision": 8,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card065",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card066",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card067",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card068",
+      "provision": 12,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card069",
+      "provision": 13,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card070",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card071",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card072",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card073",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card074",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card075",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card076",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card077",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card078",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card079",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card080",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card081",
+      "provision": 5,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card082",
+      "provision": 6,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card083",
+      "provision": 7,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card084",
+      "provision": 8,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card085",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card086",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card087",
+      "provision": 11,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card088",
+      "provision": 12,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card089",
+      "provision": 13,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card090",
+      "provision": 4,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card091",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card092",
+      "provision": 6,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card093",
+      "provision": 7,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card094",
+      "provision": 8,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card095",
+      "provision": 9,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card096",
+      "provision": 10,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card097",
+      "provision": 11,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card098",
+      "provision": 12,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card099",
+      "provision": 13,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card100",
+      "provision": 4,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card101",
+      "provision": 5,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card102",
+      "provision": 6,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card103",
+      "provision": 7,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card104",
+      "provision": 8,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card105",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card106",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card107",
+      "provision": 11,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card108",
+      "provision": 12,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card109",
+      "provision": 13,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card110",
+      "provision": 4,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card111",
+      "provision": 5,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card112",
+      "provision": 6,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card113",
+      "provision": 7,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card114",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card115",
+      "provision": 9,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card116",
+      "provision": 10,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card117",
+      "provision": 11,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card118",
+      "provision": 12,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card119",
+      "provision": 13,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card120",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card121",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card122",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card123",
+      "provision": 7,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card124",
+      "provision": 8,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card125",
+      "provision": 9,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card126",
+      "provision": 10,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card127",
+      "provision": 11,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card128",
+      "provision": 12,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card129",
+      "provision": 13,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card130",
+      "provision": 4,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card131",
+      "provision": 5,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card132",
+      "provision": 6,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card133",
+      "provision": 7,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card134",
+      "provision": 8,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card135",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card136",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card137",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card138",
+      "provision": 12,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card139",
+      "provision": 13,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card140",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card141",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card142",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card143",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card144",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card145",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card146",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card147",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card148",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card149",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card150",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card151",
+      "provision": 5,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card152",
+      "provision": 6,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card153",
+      "provision": 7,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card154",
+      "provision": 8,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card155",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card156",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card157",
+      "provision": 11,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card158",
+      "provision": 12,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card159",
+      "provision": 13,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card160",
+      "provision": 4,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card161",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card162",
+      "provision": 6,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card163",
+      "provision": 7,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card164",
+      "provision": 8,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card165",
+      "provision": 9,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card166",
+      "provision": 10,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card167",
+      "provision": 11,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card168",
+      "provision": 12,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card169",
+      "provision": 13,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card170",
+      "provision": 4,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card171",
+      "provision": 5,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card172",
+      "provision": 6,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card173",
+      "provision": 7,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card174",
+      "provision": 8,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card175",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card176",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card177",
+      "provision": 11,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card178",
+      "provision": 12,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card179",
+      "provision": 13,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card180",
+      "provision": 4,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card181",
+      "provision": 5,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card182",
+      "provision": 6,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card183",
+      "provision": 7,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card184",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card185",
+      "provision": 9,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card186",
+      "provision": 10,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card187",
+      "provision": 11,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card188",
+      "provision": 12,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card189",
+      "provision": 13,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card190",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card191",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card192",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card193",
+      "provision": 7,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card194",
+      "provision": 8,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card195",
+      "provision": 9,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card196",
+      "provision": 10,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card197",
+      "provision": 11,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card198",
+      "provision": 12,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card199",
+      "provision": 13,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card200",
+      "provision": 4,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card201",
+      "provision": 5,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card202",
+      "provision": 6,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card203",
+      "provision": 7,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card204",
+      "provision": 8,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card205",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card206",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card207",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card208",
+      "provision": 12,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card209",
+      "provision": 13,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card210",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card211",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card212",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card213",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card214",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card215",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card216",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card217",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card218",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card219",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card220",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card221",
+      "provision": 5,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card222",
+      "provision": 6,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card223",
+      "provision": 7,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card224",
+      "provision": 8,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card225",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card226",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card227",
+      "provision": 11,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card228",
+      "provision": 12,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card229",
+      "provision": 13,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card230",
+      "provision": 4,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card231",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card232",
+      "provision": 6,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card233",
+      "provision": 7,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card234",
+      "provision": 8,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card235",
+      "provision": 9,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card236",
+      "provision": 10,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card237",
+      "provision": 11,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card238",
+      "provision": 12,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card239",
+      "provision": 13,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card240",
+      "provision": 4,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card241",
+      "provision": 5,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card242",
+      "provision": 6,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card243",
+      "provision": 7,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card244",
+      "provision": 8,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card245",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card246",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card247",
+      "provision": 11,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card248",
+      "provision": 12,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card249",
+      "provision": 13,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card250",
+      "provision": 4,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card251",
+      "provision": 5,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card252",
+      "provision": 6,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card253",
+      "provision": 7,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card254",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card255",
+      "provision": 9,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card256",
+      "provision": 10,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card257",
+      "provision": 11,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card258",
+      "provision": 12,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card259",
+      "provision": 13,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card260",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card261",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card262",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card263",
+      "provision": 7,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card264",
+      "provision": 8,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card265",
+      "provision": 9,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card266",
+      "provision": 10,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card267",
+      "provision": 11,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card268",
+      "provision": 12,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card269",
+      "provision": 13,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card270",
+      "provision": 4,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card271",
+      "provision": 5,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card272",
+      "provision": 6,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card273",
+      "provision": 7,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card274",
+      "provision": 8,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card275",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card276",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card277",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card278",
+      "provision": 12,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card279",
+      "provision": 13,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card280",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card281",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card282",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card283",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card284",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card285",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card286",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card287",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card288",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card289",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card290",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card291",
+      "provision": 5,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card292",
+      "provision": 6,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card293",
+      "provision": 7,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card294",
+      "provision": 8,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card295",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card296",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card297",
+      "provision": 11,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card298",
+      "provision": 12,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card299",
+      "provision": 13,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card300",
+      "provision": 4,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card301",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card302",
+      "provision": 6,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card303",
+      "provision": 7,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card304",
+      "provision": 8,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card305",
+      "provision": 9,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card306",
+      "provision": 10,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card307",
+      "provision": 11,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card308",
+      "provision": 12,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card309",
+      "provision": 13,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card310",
+      "provision": 4,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card311",
+      "provision": 5,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card312",
+      "provision": 6,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card313",
+      "provision": 7,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card314",
+      "provision": 8,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card315",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card316",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card317",
+      "provision": 11,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card318",
+      "provision": 12,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card319",
+      "provision": 13,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card320",
+      "provision": 4,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card321",
+      "provision": 5,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card322",
+      "provision": 6,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card323",
+      "provision": 7,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card324",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card325",
+      "provision": 9,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card326",
+      "provision": 10,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card327",
+      "provision": 11,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card328",
+      "provision": 12,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card329",
+      "provision": 13,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card330",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card331",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card332",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card333",
+      "provision": 7,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card334",
+      "provision": 8,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card335",
+      "provision": 9,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card336",
+      "provision": 10,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card337",
+      "provision": 11,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card338",
+      "provision": 12,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card339",
+      "provision": 13,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card340",
+      "provision": 4,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card341",
+      "provision": 5,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card342",
+      "provision": 6,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card343",
+      "provision": 7,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card344",
+      "provision": 8,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card345",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card346",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card347",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card348",
+      "provision": 12,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card349",
+      "provision": 13,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card350",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card351",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card352",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card353",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card354",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card355",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card356",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card357",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card358",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card359",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card360",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card361",
+      "provision": 5,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card362",
+      "provision": 6,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card363",
+      "provision": 7,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card364",
+      "provision": 8,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card365",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card366",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card367",
+      "provision": 11,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card368",
+      "provision": 12,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card369",
+      "provision": 13,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card370",
+      "provision": 4,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card371",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card372",
+      "provision": 6,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card373",
+      "provision": 7,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card374",
+      "provision": 8,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card375",
+      "provision": 9,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card376",
+      "provision": 10,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card377",
+      "provision": 11,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card378",
+      "provision": 12,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card379",
+      "provision": 13,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card380",
+      "provision": 4,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card381",
+      "provision": 5,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card382",
+      "provision": 6,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card383",
+      "provision": 7,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card384",
+      "provision": 8,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card385",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card386",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card387",
+      "provision": 11,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card388",
+      "provision": 12,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card389",
+      "provision": 13,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card390",
+      "provision": 4,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card391",
+      "provision": 5,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card392",
+      "provision": 6,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card393",
+      "provision": 7,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card394",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card395",
+      "provision": 9,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card396",
+      "provision": 10,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card397",
+      "provision": 11,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card398",
+      "provision": 12,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card399",
+      "provision": 13,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card400",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card401",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card402",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card403",
+      "provision": 7,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card404",
+      "provision": 8,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card405",
+      "provision": 9,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card406",
+      "provision": 10,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card407",
+      "provision": 11,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card408",
+      "provision": 12,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card409",
+      "provision": 13,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card410",
+      "provision": 4,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card411",
+      "provision": 5,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card412",
+      "provision": 6,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card413",
+      "provision": 7,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card414",
+      "provision": 8,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card415",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card416",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card417",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card418",
+      "provision": 12,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card419",
+      "provision": 13,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card420",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card421",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card422",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card423",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card424",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card425",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card426",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card427",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card428",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card429",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card430",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card431",
+      "provision": 5,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card432",
+      "provision": 6,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card433",
+      "provision": 7,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card434",
+      "provision": 8,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card435",
+      "provision": 9,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card436",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card437",
+      "provision": 11,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card438",
+      "provision": 12,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card439",
+      "provision": 13,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card440",
+      "provision": 4,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card441",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card442",
+      "provision": 6,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card443",
+      "provision": 7,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card444",
+      "provision": 8,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card445",
+      "provision": 9,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card446",
+      "provision": 10,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card447",
+      "provision": 11,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card448",
+      "provision": 12,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card449",
+      "provision": 13,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card450",
+      "provision": 4,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card451",
+      "provision": 5,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card452",
+      "provision": 6,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card453",
+      "provision": 7,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card454",
+      "provision": 8,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card455",
+      "provision": 9,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card456",
+      "provision": 10,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card457",
+      "provision": 11,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card458",
+      "provision": 12,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card459",
+      "provision": 13,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card460",
+      "provision": 4,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card461",
+      "provision": 5,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card462",
+      "provision": 6,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card463",
+      "provision": 7,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card464",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card465",
+      "provision": 9,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card466",
+      "provision": 10,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card467",
+      "provision": 11,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card468",
+      "provision": 12,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card469",
+      "provision": 13,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card470",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card471",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card472",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card473",
+      "provision": 7,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card474",
+      "provision": 8,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card475",
+      "provision": 9,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card476",
+      "provision": 10,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card477",
+      "provision": 11,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card478",
+      "provision": 12,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card479",
+      "provision": 13,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card480",
+      "provision": 4,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card481",
+      "provision": 5,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card482",
+      "provision": 6,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card483",
+      "provision": 7,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card484",
+      "provision": 8,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card485",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card486",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card487",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card488",
+      "provision": 12,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card489",
+      "provision": 13,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card490",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card491",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card492",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card493",
+      "provision": 7,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card494",
+      "provision": 8,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card495",
+      "provision": 9,
+      "power": 8,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card496",
+      "provision": 10,
+      "power": 9,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card497",
+      "provision": 11,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card498",
+      "provision": 12,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card499",
+      "provision": 13,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Card500",
+      "provision": 4,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    }
+  ]
+}

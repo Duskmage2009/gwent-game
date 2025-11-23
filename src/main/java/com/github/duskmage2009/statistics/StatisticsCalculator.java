@@ -23,7 +23,7 @@ public class StatisticsCalculator {
             case "leaderability" -> calculateLeaderAbilityStatistics(decks);
             case "totalpower" -> calculateTotalPowerStatistics(decks);
             case "deckfaction" -> calculateDeckFactionStatistics(decks);
-            case "categories", "category" -> calculateCategoriesStatistics(decks); // ← НОВОЕ!
+            case "categories", "category" -> calculateCategoriesStatistics(decks);
             default -> throw new IllegalArgumentException(
                     "Unsupported attribute: " + attribute +
                             "\nSupported: faction, type, provision, power, leaderAbility, totalPower, deckFaction, categories"

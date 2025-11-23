@@ -1,0 +1,149 @@
+{
+  "name": "Scoia'tael Starter Deck",
+  "faction": "Scoia'tael",
+  "leaderAbility": "Deadeye Ambush",
+  "provisionLimit": 150,
+  "categories": "Harmony, Elves, Control",
+  "cards": [
+    {
+      "name": "Elden's Commandos",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dol Blathanna Bowman",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dol Blathanna Bowman",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Vrihedd Vanguard",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Vrihedd Vanguard",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Elven Swordmaster",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Elven Swordmaster",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dryad Ranger",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dryad Ranger",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dwarven Mercenary",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dwarven Mercenary",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Treant Boar",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dryad Protector",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dryad Protector",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Morenn",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Half-Elf Hunter",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Half-Elf Hunter",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Waylay",
+      "provision": 4,
+      "power": 0,
+      "type": "Special",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dol Blathanna Sentry",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    },
+    {
+      "name": "Dol Blathanna Sentry",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Scoia'tael"
+    }
+  ]
+}

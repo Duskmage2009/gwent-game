@@ -1,0 +1,149 @@
+{
+  "name": "Skellige Starter Deck",
+  "faction": "Skellige",
+  "leaderAbility": "Warriors of the Sea",
+  "provisionLimit": 150,
+  "categories": "Warriors, Damage, Resurrection",
+  "cards": [
+    {
+      "name": "Harald an Craite",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Brokvar Warrior",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Brokvar Warrior",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Heymaey Skald",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Heymaey Skald",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Tuirseach Axeman",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Tuirseach Axeman",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "An Craite Greatsword",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "An Craite Greatsword",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Dimun Light Longship",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Dimun Light Longship",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Svanrige",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Priest of Freya",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Priest of Freya",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Freya's Blessing",
+      "provision": 4,
+      "power": 0,
+      "type": "Special",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Veteran",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Veteran",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Hym",
+      "provision": 10,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Bear Witcher",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Skellige"
+    },
+    {
+      "name": "Bear Witcher",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Skellige"
+    }
+  ]
+}

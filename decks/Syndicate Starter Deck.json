@@ -1,0 +1,142 @@
+{
+  "name": "Syndicate Starter Deck",
+  "faction": "Syndicate",
+  "leaderAbility": "Off the Books",
+  "provisionLimit": 150,
+  "categories": "Crime, Spend, Control",
+  "cards": [
+    {
+      "name": "Whoreson's Freak Show",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Crownsplitter Thug",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Crownsplitter Thug",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Sly Seductress",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Sly Seductress",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Blackmail",
+      "provision": 5,
+      "power": 0,
+      "type": "Special",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Imke",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Tax Collector",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Tax Collector",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Cutthroat",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Cutthroat",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Beggar",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Beggar",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Adriano",
+      "provision": 8,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Cleaver's Muscle",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Cleaver's Muscle",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Henchman",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Henchman",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Syndicate"
+    },
+    {
+      "name": "Confession Extractor",
+      "provision": 6,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Syndicate"
+    }
+  ]
+}

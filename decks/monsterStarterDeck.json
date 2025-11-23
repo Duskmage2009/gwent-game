@@ -1,0 +1,170 @@
+{
+  "name": "Monsters Starter Deck",
+  "faction": "Monsters",
+  "leaderAbility": "Overwhelming Hunger",
+  "provisionLimit": 150,
+  "categories": "Swarm, Thrive, Deathwish",
+  "cards": [
+    {
+      "name": "Gernichora",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Katakan",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Katakan",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas Drone",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas Drone",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas Drone",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Drowner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Drowner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Endrega Larva",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Endrega Larva",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Foglet",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Foglet",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wild Hunt Rider",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wild Hunt Rider",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Ghoul",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Ghoul",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Barghest",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Barghest",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Werewolf",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Werewolf",
+      "provision": 6,
+      "power": 6,
+      "type": "Unit",
+      "faction": "Monsters"
+    }
+  ]
+}

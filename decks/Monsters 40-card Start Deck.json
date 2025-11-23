@@ -1,0 +1,289 @@
+{
+  "name": "Monster Horde",
+  "faction": "Monsters",
+  "leaderAbility": "Overwhelming Hunger",
+  "provisionLimit": 165,
+  "categories": "Swarm, Thrive, Consume, Tempo",
+  "cards": [
+    {
+      "name": "Gernichora",
+      "provision": 11,
+      "power": 7,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Auberon King",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Katakan",
+      "provision": 10,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Grave Hag",
+      "provision": 9,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Ekimmara",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Ekimmara",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wild Hunt Rider",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wild Hunt Rider",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Thrive Beast",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Thrive Beast",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Drowner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Drowner",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Arachas",
+      "provision": 4,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Harpy Egg",
+      "provision": 4,
+      "power": 2,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Harpy Egg",
+      "provision": 4,
+      "power": 2,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker Warrior",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Nekker Warrior",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Foglet",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Foglet",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Ghoul",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Ghoul",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Rotfiend",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Rotfiend",
+      "provision": 5,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Rabid Werewolf",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Rabid Werewolf",
+      "provision": 5,
+      "power": 5,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Consume Drone",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Consume Drone",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Lesser Demon",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Lesser Demon",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Endrega Larva",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Endrega Larva",
+      "provision": 5,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wolves",
+      "provision": 3,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Wolves",
+      "provision": 3,
+      "power": 3,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Night Wraith",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    },
+    {
+      "name": "Night Wraith",
+      "provision": 4,
+      "power": 4,
+      "type": "Unit",
+      "faction": "Monsters"
+    }
+  ]
+}

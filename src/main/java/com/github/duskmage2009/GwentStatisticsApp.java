@@ -51,9 +51,6 @@ public class GwentStatisticsApp {
             Map<String, Integer> statistics = calculator.calculateStatistics(decks, attribute);
 
             int count = 0;
-            for (Map.Entry<String, Integer> entry : statistics.entrySet()) {
-                if (count++ >= 10) break;
-            }
 
             XmlStatisticsWriter writer = new XmlStatisticsWriter();
             writer.writeStatistics(statistics, attribute, directoryPath);

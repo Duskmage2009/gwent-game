@@ -1,6 +1,5 @@
 package com.github.duskmage2009.parser;
 
-
 import com.github.duskmage2009.model.Card;
 import com.github.duskmage2009.model.CardType;
 import com.github.duskmage2009.model.Deck;
@@ -49,9 +48,12 @@ class DeckParserTest {
         Path testFile = tempDir.resolve("test_deck.json");
         Files.writeString(testFile, json);
 
-        Deck deck = parser.parse(testFile);
+        List<Deck> decks = parser.parse(testFile);
 
-        assertNotNull(deck);
+        assertNotNull(decks);
+        assertEquals(1, decks.size());
+
+        Deck deck = decks.get(0);
         assertEquals("Test Deck", deck.getName());
         assertEquals(Faction.NORTHERN_REALMS, deck.getFaction());
         assertEquals("Test Ability", deck.getLeaderAbility());
@@ -105,9 +107,12 @@ class DeckParserTest {
         Path testFile = tempDir.resolve("multi_deck.json");
         Files.writeString(testFile, json);
 
-        Deck deck = parser.parse(testFile);
+        List<Deck> decks = parser.parse(testFile);
 
-        assertNotNull(deck);
+        assertNotNull(decks);
+        assertEquals(1, decks.size());
+
+        Deck deck = decks.get(0);
         assertEquals(3, deck.getCards().size());
         assertEquals(CardType.UNIT, deck.getCards().get(0).getType());
         assertEquals(CardType.SPECIAL, deck.getCards().get(1).getType());
@@ -152,9 +157,12 @@ class DeckParserTest {
         Path testFile = tempDir.resolve("power_deck.json");
         Files.writeString(testFile, json);
 
-        Deck deck = parser.parse(testFile);
+        List<Deck> decks = parser.parse(testFile);
 
-        assertNotNull(deck);
+        assertNotNull(decks);
+        assertEquals(1, decks.size());
+
+        Deck deck = decks.get(0);
         assertEquals(11, deck.getTotalUnitPower()); // 8 + 3 (Special card не считается)
         assertEquals(20, deck.getTotalProvisionUsed()); // 10 + 4 + 6
     }
@@ -175,9 +183,12 @@ class DeckParserTest {
         Path testFile = tempDir.resolve("category_deck.json");
         Files.writeString(testFile, json);
 
-        Deck deck = parser.parse(testFile);
+        List<Deck> decks = parser.parse(testFile);
 
-        assertNotNull(deck);
+        assertNotNull(decks);
+        assertEquals(1, decks.size());
+
+        Deck deck = decks.get(0);
         List<String> categories = deck.getCategoriesList();
         assertEquals(4, categories.size());
         assertTrue(categories.contains("Control"));
@@ -201,11 +212,57 @@ class DeckParserTest {
         Path testFile = tempDir.resolve("no_category_deck.json");
         Files.writeString(testFile, json);
 
-        Deck deck = parser.parse(testFile);
+        List<Deck> decks = parser.parse(testFile);
 
-        assertNotNull(deck);
+        assertNotNull(decks);
+        assertEquals(1, decks.size());
+
+        Deck deck = decks.get(0);
         List<String> categories = deck.getCategoriesList();
         assertTrue(categories.isEmpty());
+    }
+
+    @Test
+    void testParseArrayOfDecks(@TempDir Path tempDir) throws IOException {
+        String json = """
+                [
+                  {
+                    "name": "Deck 1",
+                    "faction": "Northern Realms",
+                    "leaderAbility": "Ability 1",
+                    "provisionLimit": 150,
+                    "categories": "Control",
+                    "cards": []
+                  },
+                  {
+                    "name": "Deck 2",
+                    "faction": "Monsters",
+                    "leaderAbility": "Ability 2",
+                    "provisionLimit": 160,
+                    "categories": "Swarm",
+                    "cards": []
+                  },
+                  {
+                    "name": "Deck 3",
+                    "faction": "Nilfgaard",
+                    "leaderAbility": "Ability 3",
+                    "provisionLimit": 155,
+                    "categories": "Mill",
+                    "cards": []
+                  }
+                ]
+                """;
+
+        Path testFile = tempDir.resolve("array_decks.json");
+        Files.writeString(testFile, json);
+
+        List<Deck> decks = parser.parse(testFile);
+
+        assertNotNull(decks);
+        assertEquals(3, decks.size());
+        assertEquals("Deck 1", decks.get(0).getName());
+        assertEquals("Deck 2", decks.get(1).getName());
+        assertEquals("Deck 3", decks.get(2).getName());
     }
 
     @Test
@@ -247,10 +304,11 @@ class DeckParserTest {
         Path testFile = tempDir.resolve("neutral_deck.json");
         Files.writeString(testFile, json);
 
-        Deck deck = parser.parse(testFile);
+        List<Deck> decks = parser.parse(testFile);
 
-        assertNotNull(deck);
-        assertEquals(Faction.NEUTRAL, deck.getCards().get(0).getFaction());
+        assertNotNull(decks);
+        assertEquals(1, decks.size());
+        assertEquals(Faction.NEUTRAL, decks.get(0).getCards().get(0).getFaction());
     }
 
     @Test
@@ -277,9 +335,64 @@ class DeckParserTest {
         Path testFile = tempDir.resolve("stratagem_deck.json");
         Files.writeString(testFile, json);
 
-        Deck deck = parser.parse(testFile);
+        List<Deck> decks = parser.parse(testFile);
+
+        assertNotNull(decks);
+        assertEquals(1, decks.size());
+        assertEquals(CardType.STRATAGEM, decks.get(0).getCards().get(0).getType());
+    }
+
+    @Test
+    void testParseSingleMethodForBackwardsCompatibility(@TempDir Path tempDir) throws IOException {
+        String json = """
+                {
+                  "name": "Single Method Test",
+                  "faction": "Skellige",
+                  "leaderAbility": "Test",
+                  "provisionLimit": 150,
+                  "categories": "Midrange",
+                  "cards": []
+                }
+                """;
+
+        Path testFile = tempDir.resolve("single_deck.json");
+        Files.writeString(testFile, json);
+
+        // Test alternative parseSingle method
+        Deck deck = parser.parseSingle(testFile);
 
         assertNotNull(deck);
-        assertEquals(CardType.STRATAGEM, deck.getCards().get(0).getType());
+        assertEquals("Single Method Test", deck.getName());
+        assertEquals(Faction.SKELLIGE, deck.getFaction());
+    }
+
+    @Test
+    void testParseArrayWithStreamingMemoryEfficiency(@TempDir Path tempDir) throws IOException {
+        // Create a larger array to test streaming
+        StringBuilder jsonBuilder = new StringBuilder("[");
+        for (int i = 1; i <= 100; i++) {
+            if (i > 1) jsonBuilder.append(",");
+            jsonBuilder.append(String.format("""
+                    {
+                      "name": "Deck %d",
+                      "faction": "Monsters",
+                      "leaderAbility": "Ability",
+                      "provisionLimit": 150,
+                      "categories": "Swarm",
+                      "cards": []
+                    }
+                    """, i));
+        }
+        jsonBuilder.append("]");
+
+        Path testFile = tempDir.resolve("large_array.json");
+        Files.writeString(testFile, jsonBuilder.toString());
+
+        List<Deck> decks = parser.parse(testFile);
+
+        assertNotNull(decks);
+        assertEquals(100, decks.size());
+        assertEquals("Deck 1", decks.get(0).getName());
+        assertEquals("Deck 100", decks.get(99).getName());
     }
 }

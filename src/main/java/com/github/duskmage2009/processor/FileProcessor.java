@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-
 public class FileProcessor {
     private static final Logger log = LoggerFactory.getLogger(FileProcessor.class);
     private final DeckParser parser;
@@ -26,6 +25,7 @@ public class FileProcessor {
 
     public List<Deck> processDirectory(Path directoryPath) throws IOException, InterruptedException {
         log.info("Processing directory: {} with {} threads", directoryPath, threadPoolSize);
+        logMemoryUsage("Before processing");
 
         List<Path> jsonFiles = findJsonFiles(directoryPath);
         log.info("Found {} JSON files", jsonFiles.size());
@@ -36,19 +36,19 @@ public class FileProcessor {
         }
 
         ExecutorService executor = Executors.newFixedThreadPool(threadPoolSize);
-        List<Future<Deck>> futures = new ArrayList<>();
+        List<Future<List<Deck>>> futures = new ArrayList<>();
 
         long startTime = System.currentTimeMillis();
 
         for (Path jsonFile : jsonFiles) {
-            Future<Deck> future = executor.submit(() -> {
+            Future<List<Deck>> future = executor.submit(() -> {
                 try {
                     log.debug("Thread {} parsing file: {}",
                             Thread.currentThread().getName(), jsonFile.getFileName());
                     return parser.parse(jsonFile);
                 } catch (IOException e) {
                     log.error("Failed to parse file: {}", jsonFile, e);
-                    return null;
+                    return new ArrayList<>();
                 }
             });
             futures.add(future);
@@ -58,11 +58,11 @@ public class FileProcessor {
         int successCount = 0;
         int failCount = 0;
 
-        for (Future<Deck> future : futures) {
+        for (Future<List<Deck>> future : futures) {
             try {
-                Deck deck = future.get();
-                if (deck != null) {
-                    decks.add(deck);
+                List<Deck> parsedDecks = future.get();
+                if (parsedDecks != null && !parsedDecks.isEmpty()) {
+                    decks.addAll(parsedDecks);
                     successCount++;
                 } else {
                     failCount++;
@@ -81,6 +81,7 @@ public class FileProcessor {
 
         log.info("Processing completed: {} successful, {} failed in {} ms",
                 successCount, failCount, duration);
+        logMemoryUsage("After processing");
 
         return decks;
     }
@@ -97,5 +98,20 @@ public class FileProcessor {
         }
 
         return jsonFiles;
+    }
+
+    private void logMemoryUsage(String phase) {
+        Runtime runtime = Runtime.getRuntime();
+        long totalMemory = runtime.totalMemory();
+        long freeMemory = runtime.freeMemory();
+        long usedMemory = totalMemory - freeMemory;
+        long maxMemory = runtime.maxMemory();
+
+        log.info("{} - Memory usage: Used: {} MB, Free: {} MB, Total: {} MB, Max: {} MB",
+                phase,
+                usedMemory / (1024 * 1024),
+                freeMemory / (1024 * 1024),
+                totalMemory / (1024 * 1024),
+                maxMemory / (1024 * 1024));
     }
 }

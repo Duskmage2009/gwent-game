@@ -1,0 +1,381 @@
+2025-12-06 14:46:23.876 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit11771093802167123084\neutral_deck.json
+2025-12-06 14:46:23.939 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:24.332 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Neutral Deck with 1 cards
+2025-12-06 14:46:24.395 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit3626885904089658194\category_deck.json
+2025-12-06 14:46:24.417 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:24.425 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Category Test Deck with 0 cards
+2025-12-06 14:46:24.442 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit2590654379239004872\test_deck.json
+2025-12-06 14:46:24.460 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:24.465 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Test Deck with 1 cards
+2025-12-06 14:46:24.482 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: \non\existent\file.json
+2025-12-06 14:46:24.483 [main] ERROR c.g.duskmage2009.parser.DeckParser - Failed to parse deck from file: \non\existent\file.json
+java.io.FileNotFoundException: \non\existent\file.json (Системе не удается найти указанный путь)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at com.fasterxml.jackson.core.TokenStreamFactory._fileInputStream(TokenStreamFactory.java:278)
+	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:1089)
+	at com.github.duskmage2009.parser.DeckParser.parse(DeckParser.java:40)
+	at com.github.duskmage2009.parser.DeckParserTest.lambda$testParseNonExistentFile$1(DeckParserTest.java:280)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)
+	at com.github.duskmage2009.parser.DeckParserTest.testParseNonExistentFile(DeckParserTest.java:280)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-12-06 14:46:24.527 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit8106809791329397469\large_array.json
+2025-12-06 14:46:24.556 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected array format, using streaming iterator
+2025-12-06 14:46:24.582 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 1 with 0 cards
+2025-12-06 14:46:24.583 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 2 with 0 cards
+2025-12-06 14:46:24.583 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 3 with 0 cards
+2025-12-06 14:46:24.584 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 4 with 0 cards
+2025-12-06 14:46:24.585 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 5 with 0 cards
+2025-12-06 14:46:24.587 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 6 with 0 cards
+2025-12-06 14:46:24.588 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 7 with 0 cards
+2025-12-06 14:46:24.588 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 8 with 0 cards
+2025-12-06 14:46:24.589 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 9 with 0 cards
+2025-12-06 14:46:24.590 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 10 with 0 cards
+2025-12-06 14:46:24.591 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 11 with 0 cards
+2025-12-06 14:46:24.591 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 12 with 0 cards
+2025-12-06 14:46:24.592 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 13 with 0 cards
+2025-12-06 14:46:24.593 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 14 with 0 cards
+2025-12-06 14:46:24.594 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 15 with 0 cards
+2025-12-06 14:46:24.595 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 16 with 0 cards
+2025-12-06 14:46:24.595 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 17 with 0 cards
+2025-12-06 14:46:24.596 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 18 with 0 cards
+2025-12-06 14:46:24.597 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 19 with 0 cards
+2025-12-06 14:46:24.598 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 20 with 0 cards
+2025-12-06 14:46:24.600 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 21 with 0 cards
+2025-12-06 14:46:24.600 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 22 with 0 cards
+2025-12-06 14:46:24.600 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 23 with 0 cards
+2025-12-06 14:46:24.601 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 24 with 0 cards
+2025-12-06 14:46:24.603 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 25 with 0 cards
+2025-12-06 14:46:24.605 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 26 with 0 cards
+2025-12-06 14:46:24.607 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 27 with 0 cards
+2025-12-06 14:46:24.608 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 28 with 0 cards
+2025-12-06 14:46:24.609 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 29 with 0 cards
+2025-12-06 14:46:24.610 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 30 with 0 cards
+2025-12-06 14:46:24.611 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 31 with 0 cards
+2025-12-06 14:46:24.612 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 32 with 0 cards
+2025-12-06 14:46:24.612 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 33 with 0 cards
+2025-12-06 14:46:24.613 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 34 with 0 cards
+2025-12-06 14:46:24.614 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 35 with 0 cards
+2025-12-06 14:46:24.616 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 36 with 0 cards
+2025-12-06 14:46:24.617 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 37 with 0 cards
+2025-12-06 14:46:24.618 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 38 with 0 cards
+2025-12-06 14:46:24.623 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 39 with 0 cards
+2025-12-06 14:46:24.625 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 40 with 0 cards
+2025-12-06 14:46:24.625 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 41 with 0 cards
+2025-12-06 14:46:24.626 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 42 with 0 cards
+2025-12-06 14:46:24.627 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 43 with 0 cards
+2025-12-06 14:46:24.627 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 44 with 0 cards
+2025-12-06 14:46:24.628 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 45 with 0 cards
+2025-12-06 14:46:24.628 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 46 with 0 cards
+2025-12-06 14:46:24.629 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 47 with 0 cards
+2025-12-06 14:46:24.630 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 48 with 0 cards
+2025-12-06 14:46:24.631 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 49 with 0 cards
+2025-12-06 14:46:24.632 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 50 with 0 cards
+2025-12-06 14:46:24.633 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 51 with 0 cards
+2025-12-06 14:46:24.637 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 52 with 0 cards
+2025-12-06 14:46:24.640 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 53 with 0 cards
+2025-12-06 14:46:24.642 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 54 with 0 cards
+2025-12-06 14:46:24.650 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 55 with 0 cards
+2025-12-06 14:46:24.651 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 56 with 0 cards
+2025-12-06 14:46:24.653 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 57 with 0 cards
+2025-12-06 14:46:24.659 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 58 with 0 cards
+2025-12-06 14:46:24.660 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 59 with 0 cards
+2025-12-06 14:46:24.662 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 60 with 0 cards
+2025-12-06 14:46:24.664 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 61 with 0 cards
+2025-12-06 14:46:24.665 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 62 with 0 cards
+2025-12-06 14:46:24.666 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 63 with 0 cards
+2025-12-06 14:46:24.666 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 64 with 0 cards
+2025-12-06 14:46:24.666 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 65 with 0 cards
+2025-12-06 14:46:24.668 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 66 with 0 cards
+2025-12-06 14:46:24.669 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 67 with 0 cards
+2025-12-06 14:46:24.670 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 68 with 0 cards
+2025-12-06 14:46:24.672 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 69 with 0 cards
+2025-12-06 14:46:24.673 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 70 with 0 cards
+2025-12-06 14:46:24.674 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 71 with 0 cards
+2025-12-06 14:46:24.674 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 72 with 0 cards
+2025-12-06 14:46:24.675 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 73 with 0 cards
+2025-12-06 14:46:24.675 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 74 with 0 cards
+2025-12-06 14:46:24.677 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 75 with 0 cards
+2025-12-06 14:46:24.677 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 76 with 0 cards
+2025-12-06 14:46:24.678 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 77 with 0 cards
+2025-12-06 14:46:24.678 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 78 with 0 cards
+2025-12-06 14:46:24.678 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 79 with 0 cards
+2025-12-06 14:46:24.679 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 80 with 0 cards
+2025-12-06 14:46:24.680 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 81 with 0 cards
+2025-12-06 14:46:24.680 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 82 with 0 cards
+2025-12-06 14:46:24.681 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 83 with 0 cards
+2025-12-06 14:46:24.683 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 84 with 0 cards
+2025-12-06 14:46:24.683 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 85 with 0 cards
+2025-12-06 14:46:24.683 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 86 with 0 cards
+2025-12-06 14:46:24.684 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 87 with 0 cards
+2025-12-06 14:46:24.684 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 88 with 0 cards
+2025-12-06 14:46:24.684 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 89 with 0 cards
+2025-12-06 14:46:24.685 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 90 with 0 cards
+2025-12-06 14:46:24.685 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 91 with 0 cards
+2025-12-06 14:46:24.687 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 92 with 0 cards
+2025-12-06 14:46:24.687 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 93 with 0 cards
+2025-12-06 14:46:24.687 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 94 with 0 cards
+2025-12-06 14:46:24.688 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 95 with 0 cards
+2025-12-06 14:46:24.688 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 96 with 0 cards
+2025-12-06 14:46:24.688 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 97 with 0 cards
+2025-12-06 14:46:24.688 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 98 with 0 cards
+2025-12-06 14:46:24.689 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 99 with 0 cards
+2025-12-06 14:46:24.689 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 100 with 0 cards
+2025-12-06 14:46:24.689 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully streamed 100 decks from file
+2025-12-06 14:46:24.720 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit13965571980182390612\power_deck.json
+2025-12-06 14:46:24.740 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:24.754 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Power Test Deck with 3 cards
+2025-12-06 14:46:24.779 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing single deck from file using streaming: C:\Users\user\AppData\Local\Temp\junit16201071542344151509\single_deck.json
+2025-12-06 14:46:24.810 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed deck: Single Method Test with 0 cards
+2025-12-06 14:46:24.822 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit17212530747344185733\no_category_deck.json
+2025-12-06 14:46:24.843 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:24.851 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: No Category Deck with 0 cards
+2025-12-06 14:46:24.860 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit6012499534238468509\multi_deck.json
+2025-12-06 14:46:24.881 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:24.888 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Multi Card Deck with 3 cards
+2025-12-06 14:46:24.903 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit303481626829416349\array_decks.json
+2025-12-06 14:46:24.928 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected array format, using streaming iterator
+2025-12-06 14:46:24.934 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 1 with 0 cards
+2025-12-06 14:46:24.935 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 2 with 0 cards
+2025-12-06 14:46:24.936 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Streamed deck: Deck 3 with 0 cards
+2025-12-06 14:46:24.936 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully streamed 3 decks from file
+2025-12-06 14:46:24.949 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit7044568402122335013\stratagem_deck.json
+2025-12-06 14:46:24.969 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:24.979 [main] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Stratagem Deck with 1 cards
+2025-12-06 14:46:24.987 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: C:\Users\user\AppData\Local\Temp\junit903410330720452755\invalid.json
+2025-12-06 14:46:25.000 [main] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 14:46:25.009 [main] ERROR c.g.duskmage2009.parser.DeckParser - Failed to parse deck from file: C:\Users\user\AppData\Local\Temp\junit903410330720452755\invalid.json
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('i' (code 105)): was expecting double-quote to start field name
+ at [Source: (File); line: 1, column: 4]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2144)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1794)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:798)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:4801)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2974)
+	at com.github.duskmage2009.parser.DeckParser.parse(DeckParser.java:51)
+	at com.github.duskmage2009.parser.DeckParserTest.lambda$testParseInvalidJson$0(DeckParserTest.java:274)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)
+	at com.github.duskmage2009.parser.DeckParserTest.testParseInvalidJson(DeckParserTest.java:274)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-12-06 14:46:25.060 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: totalPower
+2025-12-06 14:46:25.078 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 1 unique values
+2025-12-06 14:46:25.088 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: provision
+2025-12-06 14:46:25.091 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 4 unique values
+2025-12-06 14:46:25.109 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: faction
+2025-12-06 14:46:25.113 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 2 unique values
+2025-12-06 14:46:25.128 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: faction
+2025-12-06 14:46:25.129 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 0 unique values
+2025-12-06 14:46:25.141 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: categories
+2025-12-06 14:46:25.143 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 2 unique values
+2025-12-06 14:46:25.156 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: leaderAbility
+2025-12-06 14:46:25.157 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 2 unique values
+2025-12-06 14:46:25.163 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: categories
+2025-12-06 14:46:25.164 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 0 unique values
+2025-12-06 14:46:25.168 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: deckFaction
+2025-12-06 14:46:25.169 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 2 unique values
+2025-12-06 14:46:25.177 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: type
+2025-12-06 14:46:25.178 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 3 unique values
+2025-12-06 14:46:25.188 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: categories
+2025-12-06 14:46:25.189 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 4 unique values
+2025-12-06 14:46:25.199 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: power
+2025-12-06 14:46:25.201 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 1 unique values
+2025-12-06 14:46:25.216 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: faction
+2025-12-06 14:46:25.219 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 3 unique values
+2025-12-06 14:46:25.255 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: unsupported
+2025-12-06 14:46:25.263 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: power
+2025-12-06 14:46:25.263 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 2 unique values
+2025-12-06 15:33:30.285 [main] INFO  c.g.duskmage2009.GwentStatisticsApp - Starting Gwent Statistics Application
+2025-12-06 15:33:30.289 [main] INFO  c.g.duskmage2009.GwentStatisticsApp - Directory: ./decks, Attribute: totalPower, Threads: 4
+2025-12-06 15:33:30.548 [main] INFO  c.g.d.processor.FileProcessor - Processing directory: .\decks with 4 threads
+2025-12-06 15:33:30.548 [main] INFO  c.g.d.processor.FileProcessor - Before processing - Memory usage: Used: 6 MB, Free: 247 MB, Total: 254 MB, Max: 4062 MB
+2025-12-06 15:33:30.557 [main] INFO  c.g.d.processor.FileProcessor - Found 9 JSON files
+2025-12-06 15:33:30.565 [pool-1-thread-3] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-3 parsing file: monsterStarterDeck.json
+2025-12-06 15:33:30.565 [pool-1-thread-2] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-2 parsing file: Monsters 40-card Start Deck.json
+2025-12-06 15:33:30.565 [pool-1-thread-3] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\monsterStarterDeck.json
+2025-12-06 15:33:30.565 [pool-1-thread-1] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-1 parsing file: big_deck_for_test_only.json
+2025-12-06 15:33:30.566 [pool-1-thread-4] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-4 parsing file: monster_swarm.json
+2025-12-06 15:33:30.571 [pool-1-thread-1] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\big_deck_for_test_only.json
+2025-12-06 15:33:30.571 [pool-1-thread-4] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\monster_swarm.json
+2025-12-06 15:33:30.568 [pool-1-thread-2] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\Monsters 40-card Start Deck.json
+2025-12-06 15:33:30.597 [pool-1-thread-4] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.597 [pool-1-thread-2] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.597 [pool-1-thread-1] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.597 [pool-1-thread-3] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.771 [pool-1-thread-4] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Monster Swarm with 10 cards
+2025-12-06 15:33:30.775 [pool-1-thread-4] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-4 parsing file: nilfgaard_control.json
+2025-12-06 15:33:30.775 [pool-1-thread-3] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Monsters Starter Deck with 23 cards
+2025-12-06 15:33:30.776 [pool-1-thread-3] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-3 parsing file: northern_realms_starter_deck.json
+2025-12-06 15:33:30.777 [pool-1-thread-2] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Monster Horde with 40 cards
+2025-12-06 15:33:30.778 [pool-1-thread-3] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\northern_realms_starter_deck.json
+2025-12-06 15:33:30.776 [pool-1-thread-4] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\nilfgaard_control.json
+2025-12-06 15:33:30.779 [pool-1-thread-2] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-2 parsing file: Scoia'tael Starter Deck.json
+2025-12-06 15:33:30.781 [pool-1-thread-3] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.783 [pool-1-thread-4] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.783 [pool-1-thread-2] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\Scoia'tael Starter Deck.json
+2025-12-06 15:33:30.787 [pool-1-thread-2] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.791 [pool-1-thread-3] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Northern Realms Starter Deck with 25 cards
+2025-12-06 15:33:30.792 [pool-1-thread-3] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-3 parsing file: Skellige_Starter_Deck.json
+2025-12-06 15:33:30.793 [pool-1-thread-3] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\Skellige_Starter_Deck.json
+2025-12-06 15:33:30.792 [pool-1-thread-4] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Nilfgaard Control with 10 cards
+2025-12-06 15:33:30.796 [pool-1-thread-4] DEBUG c.g.d.processor.FileProcessor - Thread pool-1-thread-4 parsing file: Syndicate Starter Deck.json
+2025-12-06 15:33:30.795 [pool-1-thread-2] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Scoia'tael Starter Deck with 20 cards
+2025-12-06 15:33:30.797 [pool-1-thread-3] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.797 [pool-1-thread-4] DEBUG c.g.duskmage2009.parser.DeckParser - Parsing deck(s) from file using streaming: .\decks\Syndicate Starter Deck.json
+2025-12-06 15:33:30.802 [pool-1-thread-3] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Skellige Starter Deck with 20 cards
+2025-12-06 15:33:30.800 [pool-1-thread-4] DEBUG c.g.duskmage2009.parser.DeckParser - Detected single object format
+2025-12-06 15:33:30.808 [pool-1-thread-4] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Syndicate Starter Deck with 19 cards
+2025-12-06 15:33:30.823 [pool-1-thread-1] INFO  c.g.duskmage2009.parser.DeckParser - Successfully parsed single deck: Mega Monster Test Deck with 500 cards
+2025-12-06 15:33:30.827 [main] INFO  c.g.d.processor.FileProcessor - Processing completed: 9 successful, 0 failed in 266 ms
+2025-12-06 15:33:30.832 [main] INFO  c.g.d.processor.FileProcessor - After processing - Memory usage: Used: 10 MB, Free: 243 MB, Total: 254 MB, Max: 4062 MB
+2025-12-06 15:33:30.840 [main] INFO  c.g.d.s.StatisticsCalculator - === Deck Statistics Summary ===
+2025-12-06 15:33:30.863 [main] INFO  c.g.d.s.StatisticsCalculator - Calculating statistics for attribute: totalPower
+2025-12-06 15:33:30.885 [main] INFO  c.g.d.s.StatisticsCalculator - Statistics calculated: 5 unique values
+2025-12-06 15:33:30.888 [main] INFO  c.g.d.output.XmlStatisticsWriter - Writing statistics to file: C:\Users\user\IdeaProjects\gwent-game\.\decks\statistics_by_totalpower.xml
+2025-12-06 15:33:31.079 [main] INFO  c.g.d.output.XmlStatisticsWriter - Statistics successfully written to: C:\Users\user\IdeaProjects\gwent-game\.\decks\statistics_by_totalpower.xml
+2025-12-06 15:33:31.080 [main] INFO  c.g.duskmage2009.GwentStatisticsApp - Processing completed successfully in 797 ms
